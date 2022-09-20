@@ -10,13 +10,11 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
-
+  <properties>
+		<sdkVersion>2.0.5</sdkVersion>
+  </properties>
   
-         
-    <properties>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
+   
 
   <modules>
     <module>server</module>
